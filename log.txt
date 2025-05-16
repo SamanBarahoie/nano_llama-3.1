@@ -1,0 +1,72 @@
+2025-05-16 03:24:43.409324: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-05-16 03:24:44.463860: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2025-05-16 03:24:46,534 - INFO - Model initialized with 33317888 parameters
+2025-05-16 03:24:46,545 - INFO - DataLoaderFactory initialized with tokenizer vocab_size=10000
+2025-05-16 03:24:50,589 - INFO - TinyStoriesDataset initialized: token_len=464965814, seq_len=128, device=cuda, streaming=True
+2025-05-16 03:24:50,589 - INFO - Training DataLoader created: batch_size=128, seq_len=128
+2025-05-16 03:24:50,629 - INFO - TinyStoriesDataset initialized: token_len=4673588, seq_len=128, device=cuda, streaming=False
+2025-05-16 03:24:50,629 - INFO - Validation DataLoader created: batch_size=128, seq_len=128
+2025-05-16 03:24:50,630 - INFO - Data loaders created: 36512 validation batches, training in streaming mode
+2025-05-16 03:24:50,630 - INFO - Trainer initialized with model on cuda
+2025-05-16 03:24:50,631 - INFO - Trainer initialized
+2025-05-16 03:24:50,631 - INFO - === Epoch 1/2 ===
+Training:   8%| | 1220/15000 [02:57<33:38,  6.83it/s, loss=11.9148, ppl=149462.62025-05-16 03:27:47,676 - INFO - Step 1220: avg_loss=11.9148, ppl=149462.62, tokens=20004864, invalid=0
+Training:  16%|▋   | 2441/15000 [05:54<30:35,  6.84it/s, loss=3.7012, ppl=40.49]2025-05-16 03:30:45,132 - INFO - Step 2441: avg_loss=3.7012, ppl=40.49, tokens=20004864, invalid=0
+Training:  24%|▉   | 3662/15000 [08:52<27:25,  6.89it/s, loss=3.0847, ppl=21.86]2025-05-16 03:33:43,145 - INFO - Step 3662: avg_loss=3.0847, ppl=21.86, tokens=20004864, invalid=0
+Training:  33%|█▎  | 4883/15000 [11:50<24:59,  6.75it/s, loss=2.7832, ppl=16.17]2025-05-16 03:36:41,211 - INFO - Step 4883: avg_loss=2.7832, ppl=16.17, tokens=20004864, invalid=0
+Training:  41%|█▋  | 6104/15000 [14:49<21:39,  6.85it/s, loss=2.6297, ppl=13.87]2025-05-16 03:39:39,821 - INFO - Step 6104: avg_loss=2.6297, ppl=13.87, tokens=20004864, invalid=0
+Training:  49%|█▉  | 7325/15000 [17:46<18:54,  6.76it/s, loss=2.5190, ppl=12.42]2025-05-16 03:42:37,265 - INFO - Step 7325: avg_loss=2.5190, ppl=12.42, tokens=20004864, invalid=0
+Training:  57%|██▎ | 8546/15000 [20:44<15:35,  6.90it/s, loss=2.4433, ppl=11.51]2025-05-16 03:45:35,169 - INFO - Step 8546: avg_loss=2.4433, ppl=11.51, tokens=20004864, invalid=0
+Training:  65%|██▌ | 9767/15000 [23:42<12:42,  6.86it/s, loss=2.3782, ppl=10.79]2025-05-16 03:48:33,142 - INFO - Step 9767: avg_loss=2.3782, ppl=10.79, tokens=20004864, invalid=0
+Training:  73%|██▏| 10988/15000 [26:41<09:51,  6.78it/s, loss=2.3225, ppl=10.20]2025-05-16 03:51:31,826 - INFO - Step 10988: avg_loss=2.3225, ppl=10.20, tokens=20004864, invalid=0
+Training:  81%|███▎| 12209/15000 [29:39<06:38,  7.00it/s, loss=2.2797, ppl=9.77]2025-05-16 03:54:30,011 - INFO - Step 12209: avg_loss=2.2797, ppl=9.77, tokens=20004864, invalid=0
+Training:  90%|███▌| 13430/15000 [32:36<03:48,  6.86it/s, loss=2.2360, ppl=9.36]2025-05-16 03:57:27,601 - INFO - Step 13430: avg_loss=2.2360, ppl=9.36, tokens=20004864, invalid=0
+Training:  98%|███▉| 14651/15000 [35:35<00:50,  6.89it/s, loss=2.2027, ppl=9.05]2025-05-16 04:00:25,743 - INFO - Step 14651: avg_loss=2.2027, ppl=9.05, tokens=20004864, invalid=0
+Training: 100%|████| 15000/15000 [36:25<00:00,  6.86it/s, loss=2.2027, ppl=9.05]
+2025-05-16 04:01:16,535 - INFO - End of epoch: last interval tokens=5701632, avg_loss=2.1793, invalid=0
+2025-05-16 04:01:16,535 - INFO - Epoch done: total_tokens=245760000, avg_loss=3.3468, invalid_batches=0
+2025-05-16 04:01:16,982 - INFO - Generated sample: <|endoftext|>Hi Jane, have you seen Alice? 
+Alice: three, two, three-year-old and Alice, always in his eyes.
+
+One day, Alice wanted to explore and decided to go out to see what was in the sky. 
+They walked in and out of the room, when they arrived, they saw something that made Alice happy
+2025-05-16 04:01:17,266 - INFO - Generated sample: <|endoftext|>Max had two dogs, Sam and Mia's dog, Sam. They did not like to share the toys, but they did not know how to play nicely. Sam and Mia liked the idea. They both wanted to play with the dog, but they did not have enough money. They said they had to get the ball.
+
+They
+2025-05-16 04:01:17,552 - INFO - Generated sample: <|endoftext|>Once upon a time, there was an old man. He was so excited to go out and explore his new house. One day, he decided to go for a walk in the woods. As he walked, he noticed a big pile of leaves. He thought, "Maybe we should find a spot." So, the old man opened his
+Evaluating: 100%|█████████████████████████| 36512/36512 [28:09<00:00, 21.62it/s]
+2025-05-16 04:29:26,642 - INFO - Evaluation completed: avg_loss=2.1811, perplexity=8.86
+2025-05-16 04:29:26,642 - INFO - Epoch 1 completed in 01:04:36: val_loss=2.1811, val_ppl=8.86
+2025-05-16 04:29:26,642 - INFO - === Epoch 2/2 ===
+Training:   8%|▍    | 1220/15000 [02:58<33:27,  6.86it/s, loss=2.1564, ppl=8.64]2025-05-16 04:32:25,030 - INFO - Step 1220: avg_loss=2.1564, ppl=8.64, tokens=20004864, invalid=0
+Training:  16%|▊    | 2441/15000 [05:56<30:28,  6.87it/s, loss=2.1307, ppl=8.42]2025-05-16 04:35:23,478 - INFO - Step 2441: avg_loss=2.1307, ppl=8.42, tokens=20004864, invalid=0
+Training:  24%|█▏   | 3662/15000 [08:54<27:02,  6.99it/s, loss=2.1017, ppl=8.18]2025-05-16 04:38:21,486 - INFO - Step 3662: avg_loss=2.1017, ppl=8.18, tokens=20004864, invalid=0
+Training:  33%|█▋   | 4883/15000 [11:52<24:33,  6.87it/s, loss=2.0797, ppl=8.00]2025-05-16 04:41:19,009 - INFO - Step 4883: avg_loss=2.0797, ppl=8.00, tokens=20004864, invalid=0
+Training:  41%|██   | 6104/15000 [14:50<21:38,  6.85it/s, loss=2.0593, ppl=7.84]2025-05-16 04:44:17,016 - INFO - Step 6104: avg_loss=2.0593, ppl=7.84, tokens=20004864, invalid=0
+Training:  49%|██▍  | 7325/15000 [17:48<18:40,  6.85it/s, loss=2.0399, ppl=7.69]2025-05-16 04:47:15,139 - INFO - Step 7325: avg_loss=2.0399, ppl=7.69, tokens=20004864, invalid=0
+Training:  57%|██▊  | 8546/15000 [20:48<15:53,  6.77it/s, loss=2.0250, ppl=7.58]2025-05-16 04:50:14,737 - INFO - Step 8546: avg_loss=2.0250, ppl=7.58, tokens=20004864, invalid=0
+Training:  65%|███▎ | 9767/15000 [23:46<12:40,  6.88it/s, loss=2.0092, ppl=7.46]2025-05-16 04:53:12,684 - INFO - Step 9767: avg_loss=2.0092, ppl=7.46, tokens=20004864, invalid=0
+Training:  73%|██▉ | 10988/15000 [26:44<09:43,  6.87it/s, loss=1.9977, ppl=7.37]2025-05-16 04:56:10,780 - INFO - Step 10988: avg_loss=1.9977, ppl=7.37, tokens=20004864, invalid=0
+Training:  81%|███▎| 12209/15000 [29:42<06:46,  6.87it/s, loss=1.9878, ppl=7.30]2025-05-16 04:59:09,053 - INFO - Step 12209: avg_loss=1.9878, ppl=7.30, tokens=20004864, invalid=0
+Training:  90%|███▌| 13430/15000 [32:40<03:48,  6.86it/s, loss=1.9809, ppl=7.25]2025-05-16 05:02:06,991 - INFO - Step 13430: avg_loss=1.9809, ppl=7.25, tokens=20004864, invalid=0
+Training:  98%|███▉| 14651/15000 [35:38<00:50,  6.88it/s, loss=1.9753, ppl=7.21]2025-05-16 05:05:05,231 - INFO - Step 14651: avg_loss=1.9753, ppl=7.21, tokens=20004864, invalid=0
+Training: 100%|████| 15000/15000 [36:29<00:00,  6.85it/s, loss=1.9753, ppl=7.21]
+2025-05-16 05:05:56,120 - INFO - End of epoch: last interval tokens=5701632, avg_loss=1.9731, invalid=0
+2025-05-16 05:05:56,120 - INFO - Epoch done: total_tokens=245760000, avg_loss=2.0436, invalid_batches=0
+2025-05-16 05:05:56,495 - INFO - Generated sample: <|endoftext|>Hi Jane, have you seen Alice? 
+She asked her Mom, "What is it, Mom?"
+
+Her Mom smiled and said, "It is a surprise. I made you a surprise!" 
+Mom said, "Let's go!"
+Alice and Dad went to get a big box. Inside the box, there was a package. Inside
+2025-05-16 05:05:56,772 - INFO - Generated sample: <|endoftext|>Max had two dogs. He was four and the other was good. He was a big dog and he liked to run and chase the birds. He had a lot of fun.
+
+One day, Max saw a small bird on the fence. He was small and brown and had a long neck. He had many colors and a red
+2025-05-16 05:05:57,055 - INFO - Generated sample: <|endoftext|>Once upon a time, there was a little girl named Lily. She loved to play outside and collect shiny rocks. One day, she found a shiny rock that she thought was very attractive. She decided to collect rocks and shiny rocks.
+
+As she was looking for her lost rock, she noticed a large rock on the ground. She
+Evaluating: 100%|█████████████████████████| 36512/36512 [28:12<00:00, 21.58it/s]
+2025-05-16 05:34:09,310 - INFO - Evaluation completed: avg_loss=1.9858, perplexity=7.29
+2025-05-16 05:34:09,310 - INFO - Epoch 2 completed in 01:04:42: val_loss=1.9858, val_ppl=7.29
+2025-05-16 05:34:09,670 - INFO - Model saved to model_final.pth
